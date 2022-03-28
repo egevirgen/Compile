@@ -22,3 +22,6 @@ manifest:
       revision: 115109a7c37377320495a2aabbeb64ce82a15d61
       path: Classic/RTE
 
+  self:
+    path: Compile
+    west-commands: scripts/west-commands.yml
