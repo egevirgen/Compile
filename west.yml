@@ -11,16 +11,16 @@ manifest:
   projects:
     - name: Application
       revision: 9040a9503e19211d08d508769b32263ff2e6838b
-      path: Classic/Application
+      path: Compile/Classic/Application
     - name: BSW
       revision: f9d8417359ce295b86b23edc321eebb9c7c87f14
-      path: Classic/BSW
+      path: Compile/Classic/BSW
     - name: Classic
       revision: 631b24909d55b9e8f2fd688f769858745082deb9
-      path: Classic
+      path: Compile/Classic
     - name: RTE
       revision: 115109a7c37377320495a2aabbeb64ce82a15d61
-      path: Classic/RTE
+      path: Compile/Classic/RTE
 
   self:
     path: Compile
