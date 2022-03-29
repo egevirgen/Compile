@@ -23,5 +23,5 @@ manifest:
       path: Classic/RTE
 
   self:
-    path: .
+    path: Compile
     west-commands: scripts/west-commands.yml
