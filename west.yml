@@ -10,14 +10,20 @@ manifest:
   # Please add items below based on alphabetical order
   projects:
     - name: app
-      revision: 81ade5a872a1975949905dd367a3a4d08755ac09
+      revision: 45d12485640ad3179d3c448b3b95614b37a990de
       path: Compile/app
     - name: mcrt
-      revision: f70e2cae07361eeb3a28a223761a3f3e83d3cf2a
+      revision: a453af4f266832f569361f4109f1ad6e26533e21
       path: Compile/mcrt
     - name: CANopenNode
-      revision: 8c7d852902b2d307e8b91a43332c14e366641e00
+      revision: 29b5f1d1214e59bb41d14e4906837c497cdff8d7
       path: Compile/mcrt/communication/canopen/canopennode
+    - name: driver
+      revision : 2a46720fc85359751408b6292782a4624ca35249
+      path : Compile/mcrt/communication/canopen/driver
+    - name: od
+      revision : cc5c94678633b6ed8a2b2702e2f7e4fdf2a1266f
+      path : Compile/mcrt/communication/canopen/od
 
   self:
     path: Compile
