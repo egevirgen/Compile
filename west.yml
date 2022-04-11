@@ -13,16 +13,16 @@ manifest:
       revision: 45d12485640ad3179d3c448b3b95614b37a990de
       path: Compile/app
     - name: mcrt
-      revision: 6bfed3e62f5bbb8d71fe172763b8bdc12b8a303f
+      revision: mcrt_rt1170
       path: Compile/mcrt
     - name: CANopenNode
-      revision: c2589d8a5d5b98ba40e41f0e5542cf6e9ee3870b
+      revision: master
       path: Compile/mcrt/communication/canopen/canopennode
     - name: driver
-      revision : 68845c060f31292116680ed0e65099d988d3f2b0
+      revision : MIMXRT1170-EVK
       path : Compile/mcrt/communication/canopen/driver
     - name: od
-      revision : befff2abeba6ed82b088b944d8c3e01ed5f2d40d
+      revision : example_od
       path : Compile/mcrt/communication/canopen/od
 
   self:
