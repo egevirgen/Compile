@@ -10,7 +10,7 @@ manifest:
   # Please add items below based on alphabetical order
   projects:
     - name: app
-      revision: 45d12485640ad3179d3c448b3b95614b37a990de
+      revision: MIMXRT1170-EVK
       path: Compile/app
     - name: mcrt
       revision: mcrt_rt1170
