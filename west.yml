@@ -24,6 +24,9 @@ manifest:
     - name: od
       revision : example_od
       path : Compile/mcrt/communication/canopen/od
+    - name: toolchain
+      revision : MIMXRT1170-EVK
+      path : Compile/toolchain
 
   self:
     path: Compile
