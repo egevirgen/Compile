@@ -19,5 +19,8 @@ add_definitions("
     -D__NEWLIB__
     ")
 
+include(toolchain/toolchain-arm-none-eabi.cmake)
+
 add_subdirectory(app)
 add_subdirectory(mcrt)
+
